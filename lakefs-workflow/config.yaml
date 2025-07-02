@@ -1,0 +1,15 @@
+database:
+  type: "local"
+  local:
+    # This is where lakeFS will store its metadata (commits, branches, etc.)
+    path: "~/lakefs_metadata"
+
+blockstore:
+  type: "local"
+  local:
+    # This is where lakeFS will store the actual data objects (your CSVs, etc.)
+    path: "~/lakefs_data"
+
+auth:
+  encrypt:
+    secret_key: "12345678"
