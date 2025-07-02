@@ -8,7 +8,7 @@ The repository is organized into two primary directories, one for each tool's im
 
 ├── dvc_workflow/
 
-    ├── DVC_ML_Workflow.ipynb       # Jupyter Notebook for the DVC implementation
+    ├── MLOPS-HW1-DVC.ipynb       # Jupyter Notebook for the DVC implementation
 
     └── ...                       # DVC metadata (.dvc), scripts, etc.
 
@@ -16,6 +16,6 @@ The repository is organized into two primary directories, one for each tool's im
 
 └── lakefs_workflow/
 
-    ├── lakeFS_ML_Workflow.ipynb  # Jupyter Notebook for the lakeFS implementation
+    ├── MLOPS-HW1-lakeFS.ipynb  # Jupyter Notebook for the lakeFS implementation
     
     └── ...                       # lakeFS setup files, scripts, etc.
